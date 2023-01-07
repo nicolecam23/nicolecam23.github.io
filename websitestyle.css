@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.main{
+    width:100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50% ),url(skinconfidence.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 800px;
+}
+
+.navbar{
+    width:1000px;
+    height: 75px;
+    margin:auto
+}
+
+.icon{
+    width: 300px;
+    float: left;
+    height: 80px;
+}
+
+.logo{
+    color:beige;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float:left;
+    padding-top:15px;
+    padding-left:1px;
+}
+
+.menu{
+    width: 200px;
+    float:left;
+    height:40px;
+}
+
+ul{
+    float:center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 62px;
+    margin-bottom:62px;
+    align-items: center; 
+}
+
+ul{
+    float:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffff ;
+    font-family: Verdana;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:beige;
+
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    align-items:right;
+    left:10px;
+}
+
+.srch{
+    font-family: Verdana;
+    width: 200px;
+    height: 40px;
+    background:transparent;
+    border: 1px solid beige;
+    margin-top: 13px;
+    color: beige;
+    border-right:none;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    align-items: right;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #4a3728;
+    border: 1px solid blanchedalmond ;
+    margin-top: 13px;
+    color:beige;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    align-items: right;
+}
+
+.btn:focus{
+    outline:none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width:1200px;
+    height: auto;
+    margin: auto;
+    color: #ffff;
+    position: relative;
+    align-items: right;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Verdana;
+    letter-spacing: 1.2px;
+    line-break: 30px;
+    align-items: right;
+}
+
+.content h1{
+    font-family: Verdana;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    align-items: right;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #4a3728;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:.4s ease ;
+    align-items: right;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color:azure;
+    transition: .3s ease;
+    
+}
+
+.cn:hover{
+    background-color: beige;
+}
+
+.content span{
+    color:beige;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient( to top, rgba(255, 255, 255, 0.8)) 50%,rgba(255, 255, 255, 0.8)50%;
+    position: absolute;
+    bottom: 20px;
+    right:-1px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: Verdana;
+    text-align: center;
+    color: beige;
+    font-size: 22px;
+    background-color: #4a3728;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid beige;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family:sans-serif;
+}
+
+.form input:focus{
+    color: #ffff;
+    font-family: Verdana;
+}
+
+::placeholder{
+    color: beige;
+    font-family: Verdana;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: beige;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: beige;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+background:#4a3728 ;
+color: beige;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: right;
+}

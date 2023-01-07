@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- the line below is needed -->
+    <link href="fcf.default.css" rel="stylesheet">
+
+
+    <title>Contact Form</title>
+</head>
+
+<body>
+            <h3>Contact us</h3>
+    <div style="max-width:500px;padding:30px">
+        <div id="fcf-form">
+
+                <div class="field">
+                    <label for="Name" class="label has-text-weight-normal">Your name</label>
+                    <div class="control">
+                        <input type="text" name="Name" id="Name" class="input is-full-width" maxlength="100"required></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="Email" class="label has-text-weight-normal">Your email address</label>
+                    <div class="control">
+                        <input type="email" name="Email" id="Email" class="input is-full-width" maxlength="100"required></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="Message" class="label has-text-weight-normal">Your message</label>
+                    <div class="control">
+                        <textarea name="Message" id="Message" class="textarea" maxlength="3000" rows="5" required></textarea>
+                    </div>
+                </div>
+                <div id="fcf-status" class="fcf-status"></div>
+                <div class="field">
+                    <div class="buttons">
+                        <button id="fcf-button" type="submit" class="button is-link is-medium">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="fcf-thank-you" style="display:none">
+            <strong>Thank you</strong>
+            <p>Thanks for contacting us, we will get back in touch with you soon.</p>
+
+
+
+</body>
+
+</html>
